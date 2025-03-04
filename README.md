@@ -1,5 +1,5 @@
-# LeetCode Solutions (NeetCode 50)  
-This repository contains my solutions for the **NeetCode 50** challenge, solved in Python.  
+# LeetCode Solutions (NeetCode 150)  
+This repository contains my solutions for the **NeetCode 150** challenge, solved in Python.  
 
 ## Progress Tracker  
 | # | Problem | Solution | Difficulty |  
@@ -8,3 +8,4 @@ This repository contains my solutions for the **NeetCode 50** challenge, solved 
 | 2 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](valid_anagram.py) | 🟢 Easy |  
 | 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | [two_sum.py](two_sum.py) | 🟢 Easy |  
 | 4 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [group_anagrams.py](group_anagrams.py) | 🟡 Medium |  
+| 5 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [top_k_frequent.py](top_k_frequent.py) | 🟡 Medium |  
