@@ -1,4 +1,3 @@
-
 """
 LeetCode Problem 242: Valid Anagram
 Link: https://leetcode.com/problems/valid-anagram/
@@ -13,23 +12,26 @@ Input: s = "rat", t = "car"
 Output: false
 """
 
-s = "racecar"
-t = "carrace"
-
 def isAnagram(s: str, t: str) -> bool:
-     if len(s) != len(t):
-         return False
+    if len(s) != len(t):
+        return False
 
-     count = {}
+    count = {}
 
-     for char in s:
-         count[char] = count.get(char, 0) + 1
+    # Count the frequency of each character in s
+    for char in s:
+        count[char] = count.get(char, 0) + 1
 
-     for char in t:
-        if char not in count or count[char]== 0:
+    # Check the frequency of each character in t
+    for char in t:
+        if char not in count or count[char] == 0:
             return False
-        count[char]-=1
+        count[char] -= 1
 
-     return True
+    return True
 
-print(isAnagram(s, t))
+# Test the solution
+if __name__ == "__main__":
+    s = "racecar"
+    t = "carrace"
+    print(isAnagram(s, t))  # Should print True
