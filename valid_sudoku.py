@@ -1,3 +1,30 @@
+"""
+Determine if a 9x9 Sudoku board is valid.
+
+A Sudoku board is valid if:
+- Each row contains unique numbers (1-9).
+- Each column contains unique numbers (1-9).
+- Each 3x3 sub-box contains unique numbers (1-9).
+
+The board may contain "." indicating empty cells.
+
+Example:
+Input:
+board =
+[
+    ["5","3",".",".","7",".",".",".","."],
+    ["6",".",".","1","9","5",".",".","."],
+    [".","9","8",".",".",".",".","6","."],
+    ["8",".",".",".","6",".",".",".","3"],
+    ["4",".",".","8",".","3",".",".","1"],
+    ["7",".",".",".","2",".",".",".","6"],
+    [".","6",".",".",".",".","2","8","."],
+    [".",".",".","4","1","9",".",".","5"],
+    [".",".",".",".","8",".",".","7","9"]
+]
+Output: True
+"""
+
 from typing import List
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
