@@ -13,3 +13,5 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 | 7 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [valid_sudoku.py](valid_sudoku.py) | 🟡 Medium |
 | 8 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive.py](longest_consecutive.py) | 🟡 Medium |
 | 9 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_palindrome.py](valid_palindrome.py) | 🟢 Easy |
+|10 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [two_sum_ii.py](two_sum_ii.py) | 🟡 Medium |
+
