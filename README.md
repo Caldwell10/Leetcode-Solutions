@@ -16,4 +16,6 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |10 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [two_sum_ii.py](two_sum_ii.py) | 🟡 Medium |
 |11 | [3Sum](https://leetcode.com/problems/3sum/) | [three_sum.py](three_sum.py) | 🟡 Medium |
 |12 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](container_with_most_water.py) | 🟡 Medium |
+|13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [roman_to_integer.py](roman_to_integer.py) | 🟢 Easy |
+
 
