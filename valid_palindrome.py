@@ -31,9 +31,9 @@ class Solution:
 
             # Compare characters
             if s[left].lower() != s[right].lower():
-                return False  # ❌ If mismatch, it's not a palindrome
+                return False  # If mismatch, it's not a palindrome
 
-            left += 1  # ✅ Move left pointer forward
-            right -= 1  # ✅ Move right pointer backward
+            left += 1  # Move left pointer forward
+            right -= 1  # Move right pointer backward
 
-        return True  # ✅ If no mismatches, it's a palindrome
+        return True  # If no mismatches, it's a palindrome
