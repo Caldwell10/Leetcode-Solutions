@@ -17,5 +17,10 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |11 | [3Sum](https://leetcode.com/problems/3sum/) | [three_sum.py](three_sum.py) | 🟡 Medium |
 |12 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](container_with_most_water.py) | 🟡 Medium |
 |13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [roman_to_integer.py](roman_to_integer.py) | 🟢 Easy |
+|14 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [integer_to_roman.py](integer_to_roman.py) | 🟡 Medium |
+|15 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best_time_to_buy_and_sell_stock.py](best_time_to_buy_and_sell_stock.py) | 🟢 Easy |
+
+
+
 
 
