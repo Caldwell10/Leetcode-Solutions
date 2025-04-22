@@ -22,6 +22,9 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |16 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_substring_without_repeating_characters.py](longest_substring_without_repeating_characters.py) | 🟡 Medium |
 |17 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repeating_character_replacement.py](longest_repeating_character_replacement.py) | 🟡 Medium |
 |18 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [permutation_in_string.py](permutation_in_string.py) | 🟡 Medium |
+|19 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](valid_parentheses.py) | 🟢 Easy |
+
+
 
 
 
