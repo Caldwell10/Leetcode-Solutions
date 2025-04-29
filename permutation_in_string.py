@@ -9,6 +9,9 @@ Example:
 Input: s1 = "ab", s2 = "eidbaooo"
 Output: True
 """
+from collections import Counter
+
+
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2):
@@ -25,13 +28,13 @@ class Solution:
             left_char = s2[i - len(s1)] # character leaving the window
             new_char = s2[i] # character entering the window
 
-            window_Count[new_char] +=1 #Add new character
-            window_Count[left_char] -=1 # remove old character
+            window_count[new_char] +=1 #Add new character
+            window_count[left_char] -=1 # remove old character
 
             if window_count[left_char] == 0:# clean up to keep map small in case the leaving character if sully gone
                 del window_count[left_char]
 
-            if window__count ==s1_count: # check for match
+            if window_count ==s1_count: # check for match
                 return True
 
         return False
