@@ -24,6 +24,8 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |18 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [permutation_in_string.py](permutation_in_string.py) | 🟡 Medium |
 |19 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](valid_parentheses.py) | 🟢 Easy |
 |20 | [Min Stack](https://leetcode.com/problems/min-stack/) | [min_stack.py](min_stack.py) | 🟡 Medium |
+|21| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [evaluate_reverse_polish_notation.py](evaluate_reverse_polish_notation.py) | 🟡 Medium |
+
 
 
 
