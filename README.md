@@ -26,6 +26,8 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |20 | [Min Stack](https://leetcode.com/problems/min-stack/) | [min_stack.py](min_stack.py) | 🟡 Medium |
 |21 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [evaluate_reverse_polish_notation.py](evaluate_reverse_polish_notation.py) | 🟡 Medium |
 |22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generate_parentheses.py](generate_parentheses.py) | 🟡 Medium |
+|23 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [daily_temperatures.py](daily_temperatures.py) | 🟡 Medium |
+
 
 
 
