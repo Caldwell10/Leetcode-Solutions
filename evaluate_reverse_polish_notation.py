@@ -18,7 +18,6 @@ Explanation: ((2 + 1) * 3) = 9
 """
 
 from typing import List
-
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack =[]
