@@ -28,6 +28,7 @@ This repository contains my solutions for the **NeetCode 150** challenge, solved
 |22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generate_parentheses.py](generate_parentheses.py) | 🟡 Medium |
 |23 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [daily_temperatures.py](daily_temperatures.py) | 🟡 Medium |
 |24 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | [car_fleet.py](car_fleet.py) | 🟡 Medium |
+|25 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [search_matrix.py](search_matrix.py) | 🟡 Medium |
 
 
 
