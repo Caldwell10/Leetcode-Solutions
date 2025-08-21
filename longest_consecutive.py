@@ -21,18 +21,16 @@ from typing import List
 
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        if not nums:
-            return 0
-
-        num_set = set(nums)  # Store numbers in a set for O(1) lookups
+        numSet = set(nums)
         longest = 0
 
-        for num in num_set:
-            # Only start counting when num - 1 is NOT in the set
-            if num - 1 not in num_set:
-                length = 1
-                while num + length in num_set:
+        for num in nums:
+            # where our sequence starts
+            if (num - 1) not in numSet:
+                length = 0
+                while num + length in numSet:
                     length += 1
-                longest = max(longest, length)  # Update max sequence length
+
+                longest = max(longest, length)
 
         return longest
