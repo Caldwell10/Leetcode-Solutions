@@ -20,20 +20,19 @@ Constraints:
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # Create two pointers
         left, right = 0, len(s) - 1
 
-        while left < right:  # Compare when pointers meet
-            while left < right and not s[left].isalnum():  # Skip non-alphanumeric chars
+        while left < right:
+            while left < right and not s[left].isalnum():
                 left += 1
-            while left < right and not s[right].isalnum():  # Skip non-alphanumeric chars
+            while left < right and not s[right].isalnum():
                 right -= 1
 
-            # Compare characters
             if s[left].lower() != s[right].lower():
-                return False  # If mismatch, it's not a palindrome
+                return False
 
-            left += 1  # Move left pointer forward
-            right -= 1  # Move right pointer backward
+            left += 1
+            right -= 1
 
-        return True  # If no mismatches, it's a palindrome
+        return True
+
