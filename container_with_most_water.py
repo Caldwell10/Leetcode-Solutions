@@ -17,31 +17,21 @@ Constraints:
 from typing import List
 
 class Solution:
-    def maxArea(self, height: List[int], target: int) -> int:
-        # Brute force
-#        result = 0 # cant have negative area
+    def maxArea(self, heights: List[int]) -> int:
+        res = 0
+        left, right = 0, len(heights) - 1
 
-#        for left in range(len(height)):
-#           for right in range(left + 1, len(height)):
-#                area = (right -left) * min(height[left], height[right])
-#                result = max(result, area)
-
-#            return result
-
-        # optimal solution - Linear Time Solution: O(n)
-        result = 0
-        left, right = 0, len(height)-1
         while left < right:
-            # compute area and update result
-            area = (right - left) * min(height[right], height[left])
-            result = max(area, result)
+            area = min(heights[left], heights[right]) * (right - left)
+            res = max(area, res)
 
-            if height[left] < height[right]:
-                left+=1
+            if heights[left] < heights[right]:
+                left += 1
             else:
-                right -=1
+                right -= 1
 
-        return result
+        return res
+
 
 
 
