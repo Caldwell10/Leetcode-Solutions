@@ -18,19 +18,19 @@ Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6 
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        left, right = 0, 1 # left = buy, right = sell
-        maxProfit = 0
+        l, r = 0, 1
+        maxP = 0
 
-        while right < len(prices):
-            #profitable
-            if prices[left] < prices[right]:
-                profit = prices[right] - prices[left]
-                maxProfit = max(maxProfit, profit)
-            else: # if loss made
-                left = right
-            right +=1
+        while r < len(prices):
+            # profitable
+            if prices[l] < prices[r]:
+                profit = prices[r] - prices[l]
+                maxP = max(profit, maxP)
+            else:
+                l = r
+            r += 1
+        return maxP
 
-        return maxProfit
 
 
 
