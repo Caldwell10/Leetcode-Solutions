@@ -12,15 +12,15 @@ Explanation: The answer is "abc", with a length of 3.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
-        left = 0
+        l = 0 # left pointer
         result = 0
 
-        for right in range(len(s)):
-            while s[right] in charSet:
-                charSet.remove(s[left])
-                left += 1
-            charSet.add(s[right])
-            result = max(result, right - left + 1)
+        for r in range(len(s)):
+            while s[r] in charSet:  # duplicate
+                charSet.remove(s[l])
+                l += 1
+            charSet.add(s[r])
+            result = max(result, r - l + 1)
 
         return result
 
